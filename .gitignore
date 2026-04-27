@@ -1,0 +1,70 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Generated content
+wp-content/uploads/
+wp-content/jetpack-waf/
+wp-content/themes/twentytwentyfive
+wp-content/themes/twentytwentyfour
+wp-content/themes/twentytwentythree
+wp-content/plugins/google-listings-and-ads
+wp-content/plugins/jetpack
+wp-content/plugins/mailpoet
+wp-content/plugins/pinterest-for-woocommerce
+wp-content/plugins/reddit-for-woocommerce
+wp-content/plugins/snapchat-for-woocommerce
+wp-content/plugins/woocommerce
+wp-content/plugins/woocommerce-paypal-payments
+wp-content/plugins/elementor/vendor/
+wp-content/plugins/elementor/vendor_prefixed/
+wp-content/plugins/elementor/modules/
+wp-content/plugins/core/
+wp-content/plugins/includes/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/backup-db/
+wp-content/ai-cache/
+
+# Object cache and drop-ins
+wp-content/advanced-cache.php
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/sunrise.php
+
+# Local configuration
+wp-config.php
+.htaccess
+
+# Node and build artifacts
+node_modules/
+pub/node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Composer / PHP dependencies
+vendor/
+**/vendor/
+composer.lock
+
+# Theme/plugin build dirs
+**/dist/
+**/build/
+**/.sass-cache/
+**/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
